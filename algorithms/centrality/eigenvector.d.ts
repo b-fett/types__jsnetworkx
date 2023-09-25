@@ -62,6 +62,6 @@ export function eigenvectorCentrality<T>(G: Graph<T>, { maxIter, tolerance, nsta
     tolerance?: number | null;
     nstart?: Map | null;
     weight?: string | null;
-}): Map<string, T>;
+}): Map<T, number>;
 import { Graph } from '../../classes';
 import { Map } from '../../_internals';

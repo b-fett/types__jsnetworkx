@@ -335,7 +335,7 @@ export default class MultiDiGraph<Node = unknown> extends DiGraph<Node> {
      *   The degree is the sum of the edge weights.
      * @return {Iterator} The iterator returns two-tuples of `(node, degree)`.
      */
-    outDegreeIter(optNbunch?: Iterable, optWeight?: any): Iterator;
+    outDegreeIter(optNbunch?: Iterable, optWeight: any): Iterator;
     /**
      * Return a directed copy of the graph.
      *
